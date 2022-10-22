@@ -1,0 +1,94 @@
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    height: 100vh;
+    padding: 25px 30px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.conteudo .texto{
+    position: relative;
+    color: white;
+    max-width: 425px;
+    margin-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.conteudo .texto h1{
+    font-size: 3.5rem;
+    margin-top: 40px;
+}
+
+
+.conteudo .texto p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.conteudo .texto .btn{
+    display: inline-block;
+    font-size: 1.3rem;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    padding: 8px 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 4px hsl(257, 47%, 43%);
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo .texto .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.conteudo .texto .social{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.conteudo .texto .social a{
+    padding: 5px;
+}
+
+.conteudo .texto .social a i{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 1.9rem;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo .texto .social a:hover i{
+    background-color: hsl(257, 40%, 49%);
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.conteudo .texto .social a #facebook{
+    padding: 5px 8px 5px 8px;
+}
+
+.conteudo .texto .social a #instagram{
+    padding: 5px 6px 5px 6px;
+}

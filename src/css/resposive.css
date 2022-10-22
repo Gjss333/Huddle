@@ -1,0 +1,60 @@
+@media (max-width: 425px){
+
+    body{
+        background: url(../images/bg-mobile.svg)center center no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+        height: 70vh;
+        padding: 25px 30px;
+    }
+
+    .cabecalho{
+        width: 150px;
+    }
+
+    .conteudo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteudo .texto{
+        position: static;
+        margin-left: 0;
+        margin-top: 30px;
+        max-width: 350px;
+    }
+
+    .conteudo .texto h1{
+        font-size: 2.5rem;
+        max-width: 330px;
+    }
+
+    .conteudo .texto .social{
+        position: static;
+        margin-top: 70px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .conteudo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo .texto{
+        max-width: 500px;
+    }
+
+    .conteudo .texto p{
+        margin-bottom: 40px;
+    }
+    
+
+    .conteudo .texto .btn,
+    .conteudo .texto .social{
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+    }
+}
